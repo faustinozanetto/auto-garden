@@ -1,0 +1,9 @@
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> ##############################
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> Auto Garden
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> Version: 0.0.1
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> Made By: Retrosen
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> Build Date: 12/6/2020
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> ##############################
+Thread: 1 | On: com.retrosen.autogarden.Main | At: registerPlot | Sun Dec 06 18:16:26 ART 2020 -> ✅ Successfully created a new Plot with ID: 1
+Thread: 1 | On: com.retrosen.autogarden.managers.PlotManager | At: addPlant | Sun Dec 06 18:16:26 ART 2020 -> ✅ Successfully added a new Plant with ID: 0
+Thread: 1 | On: com.retrosen.autogarden.Main | At: main | Sun Dec 06 18:16:26 ART 2020 -> Tomato
