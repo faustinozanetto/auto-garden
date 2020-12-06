@@ -4,19 +4,21 @@ public class Plant {
 	private String name;
 	private String description;
 	private PlantTypes plantType;
+	private String variety;
 	private int height;
 
-	// Default Constructor
-	public Plant() {
-
-	}
-
-	// Full Constructor
-	public Plant(String name, String description, PlantTypes plantType, int height) {
+	// Full constructor
+	public Plant(String name, String description, PlantTypes plantType, String variety, int height) {
 		this.name = name;
 		this.description = description;
 		this.plantType = plantType;
+		this.variety = variety;
 		this.height = height;
+	}
+
+	// Default constructor
+	public Plant() {
+
 	}
 
 	public String getName() {
@@ -43,6 +45,13 @@ public class Plant {
 		this.plantType = plantType;
 	}
 
+	public String getVariety() {
+		return variety;
+	}
+
+	public void setVariety(String variety) {
+		this.variety = variety;
+	}
 
 	public int getHeight() {
 		return height;

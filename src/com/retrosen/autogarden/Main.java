@@ -1,5 +1,7 @@
 package com.retrosen.autogarden;
 
+import com.retrosen.autogarden.managers.PlotManager;
+import com.retrosen.autogarden.plot.Plot;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,5 +21,13 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
+    }
+
+    // Method for registering a new garden plot.
+    public static void registerPlot() {
+        // Creating a new plot instance.
+        Plot plot = new Plot();
+        // Creating a plot manager for the new plot.
+        PlotManager plotManager = new PlotManager(plot);
     }
 }
