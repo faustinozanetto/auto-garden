@@ -1,0 +1,31 @@
+package com.retrosen.autogarden.plant;
+
+public enum PlantTypes {
+	NONE,
+	TOMATO,
+	LETTUCE,
+	CUCUMBER,
+	BEAN,
+	CARROT,
+	RADISH,
+	SPINACH,
+	SQUASH,
+	BEET,
+	KALE,
+	PEPPER,
+	PEA,
+	BASIL,
+	MINT,
+	CELERY,
+	ONION,
+	POTATO,
+	CORN,
+	CHARD,
+	CABBAGE,
+	ENDIVE,
+	LEEK,
+	CAULIFLOWER,
+	BROCCOLI,
+	ASPARAGUS,
+
+}
