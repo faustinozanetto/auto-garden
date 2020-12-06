@@ -1,10 +1,13 @@
 package com.retrosen.autogarden.plot;
 
+import java.util.ArrayList;
+
 import com.retrosen.autogarden.plant.Plant;
+import java.util.List;
 
 public class Plot {
 	private int id;
-	private Plant[] plants;
+	private List<Plant> plants = new ArrayList<>();
 	private int maxPlants;
 
 	// Full constructor
@@ -26,11 +29,11 @@ public class Plot {
 		this.id = id;
 	}
 
-	public Plant[] getPlants() {
+	public List<Plant> getPlants() {
 		return plants;
 	}
 
-	public void setPlants(Plant[] plants) {
+	public void setPlants(List<Plant> plants) {
 		this.plants = plants;
 	}
 
